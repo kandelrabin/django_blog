@@ -1,3 +1,19 @@
+# Python
+*.pyc
+*~
+__pycache__
+
+# Env
 .venv
+
+# Database
+db.sqlite3
+
+# Static folder at project root
+/static/
+
+# editor
 .idea
+
+# macOS
 .DS_Store
