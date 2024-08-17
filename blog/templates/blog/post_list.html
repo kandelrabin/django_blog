@@ -8,6 +8,7 @@
             </time>
             <h2><a href="">{{ post.title }}</a></h2>
             <p>{{ post.text|linebreaksbr }}</p>
+            <p>{{ post.content|safe }}</p>
         </article>
     {% endfor %}
 {% endblock %}
